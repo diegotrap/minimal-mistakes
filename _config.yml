@@ -252,6 +252,7 @@ defaults:
     values:
       layout: "default"
       author_profile: true
+      share: true
 # Collections
 collections:
   products:
