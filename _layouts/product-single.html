@@ -3,21 +3,21 @@ layout: default
 ---
 
 <div class="product-details">
-  <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
+  <img src="{{ page.image }}" alt="{{ page.name }}" class="thumbnail"/>
   <div class="product-description">
-    <p>{{ product.name }}</p>
+    <p>{{ page.name }}</p>
 
     <p>
-      {{ product.content }}
+      {{ page.content }}
     </p>
 
     <button class="snipcart-add-item"
-      data-item-name="{{ product.name }}"
-      data-item-id="{{ product.sku }}"
-      data-item-image="{{ product.image }}"
+      data-item-name="{{ page.name }}"
+      data-item-id="{{ page.sku }}"
+      data-item-image="{{ page.image }}"
       data-item-url="{{ site.baseurl }}"
-      data-item-price="{{ product.price }}">
-      Buy it for {{ product.price }} $
+      data-item-price="{{ page.price }}">
+      Buy it for {{ page.price }} $
     </button>
   </div>
 </div>
