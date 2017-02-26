@@ -9,7 +9,7 @@
 locale                   : "es"
 title                    : "Triveros"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Triveros"
 description              : "Llaveros impresos en 3D."
 url                      : "https://diegotrap.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/triveros" # the subpath of your site, e.g. "/blog"
@@ -75,13 +75,13 @@ analytics:
     tracking_id          :
 
 
-# Site Author
+# Site Information
 author:
-  name             : "Your Name"
+  name             : "Triveros" #Site name
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Llaveros impresos en 3D."
+  location         : "Madrid, España"
+  email            : "info@triveros.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -100,7 +100,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "triveros"
   vine             :
   weibo            :
   xing             :
