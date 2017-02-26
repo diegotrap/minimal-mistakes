@@ -27,21 +27,25 @@ layout: default
         </header>
       {% endunless %}
 
-      <img src="{{ page.image }}" alt="{{ page.name }}" class="thumbnail"/>
-
+      
       <section class="page__content" itemprop="text">
+        
+        <img src="{{ page.image }}" alt="{{ page.name }}" class="thumbnail"/>
+
         {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        
+        <button class="snipcart-add-item"
+          data-item-name="{{ page.name }}"
+          data-item-id="{{ page.sku }}"
+          data-item-image="{{ page.image }}"
+          data-item-url="{{ site.baseurl }}"
+          data-item-price="{{ page.price }}">
+          Buy it for {{ page.price }} $
+        </button>
       </section>
 
-      <button class="snipcart-add-item"
-        data-item-name="{{ page.name }}"
-        data-item-id="{{ page.sku }}"
-        data-item-image="{{ page.image }}"
-        data-item-url="{{ site.baseurl }}"
-        data-item-price="{{ page.price }}">
-        Buy it for {{ page.price }} $
-      </button>
+
+      
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
