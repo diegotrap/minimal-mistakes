@@ -247,4 +247,5 @@ defaults:
 
 # Collections
 collections:
-  - products
+  products:
+    output: true
