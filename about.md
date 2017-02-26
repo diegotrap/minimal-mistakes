@@ -8,8 +8,6 @@ excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub 
 
 Minimal Mistakes has been developed as a [Jekyll theme gem](http://jekyllrb.com/docs/themes/) for easier use. It is also 100% compatible with GitHub Pages --- just with a more involved installation process.
 
-{% include toc %}
-
 ## Installing the Theme
 
 If you're running Jekyll v3.3+ and self-hosting you can quickly install the theme as Ruby gem.
