@@ -9,3 +9,7 @@ layout: archive
 {% endfor %}
 
 {% include paginator.html %}
+
+{% for product in site.products %}
+  {% include product.html %}
+{% endfor %}
