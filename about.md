@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Quick-Start Guide"
 permalink: /about/
 excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
