@@ -233,7 +233,7 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # Defaults for _posts
   - scope:
       path: ""
       type: posts
@@ -244,7 +244,14 @@ defaults:
       comments: # true
       share: true
       related: true
-
+  # Defaults for _products
+  -
+    scope:
+      path: ""
+      type: "products" # a collection in your site, in plural form
+    values:
+      layout: "default"
+      author_profile: true
 # Collections
 collections:
   products:
